@@ -1,0 +1,115 @@
+.left-side-pannel {
+    background-color: #494b50;
+    height: 100%;
+    position: relative;
+    padding: 0 70px;
+}
+
+@media screen and (max-width: 1200px) {
+    .left-side-pannel {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 50px;
+        z-index: 1;
+    }
+
+
+    ul.Nav-list {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    ul.Nav-list {
+        position: absolute;
+        top: 50% !important;
+        transform: translate(-50%, -50%);
+        left: 50% !important;
+        padding: 0;
+    }
+
+
+    .copyright {
+        display: none;
+    }
+
+    .Logo {
+        display: none;
+    }
+
+    .main {
+        display: block !important;
+        height: 100% !important;
+    }
+
+}
+
+ul.Nav-list {
+    position: absolute;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    left: 40%;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+    color: #bbb;
+    line-height: 35px;
+    font-weight: 800;
+}
+
+.copyright {
+    position: absolute;
+    bottom: 0;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 80%;
+    color: #bbb;
+    font-weight: 800;
+}
+
+
+.main {
+    display: grid;
+    grid-template-columns: 25% auto;
+    height: 100vh;
+    background-color: #34353a;
+
+}
+
+
+p.Logo {
+    color: white;
+    margin-bottom: 50px;
+    font-weight: 600;
+}
+
+img.port-logo {
+    width: 78px;
+    filter: grayscale(1);
+}
+
+.mob-link {
+    display: none;
+}
+
+@media screen and (max-width:460px) {
+    .mob-link {
+        display: flex;
+        color: white;
+        font-size: 16px;
+
+    }
+
+    .links {
+        display: none;
+    }
+}

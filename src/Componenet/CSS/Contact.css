@@ -1,0 +1,131 @@
+.contact_wrapper {
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+    padding: 86px 30px;
+    background-color: #34353a;
+}
+
+.tokyo_tm_title {
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+    margin-bottom: 62px;
+}
+
+.tokyo_tm_title .title_flex {
+    width: 100%;
+    height: auto;
+    clear: both;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+
+.tokyo_tm_title span {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, .04);
+    color: #959595;
+    text-transform: uppercase;
+    padding: 4px 10px;
+    font-weight: 600;
+    font-size: 12px;
+    font-family: montserrat;
+    letter-spacing: 0;
+    margin-bottom: 11px;
+}
+
+.tokyo_tm_title h3 {
+    font-weight: 800;
+    font-family: montserrat;
+    font-size: 30px;
+    color: white;
+}
+
+.fields {
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+}
+
+.fields .first {
+    width: 100%;
+    float: left;
+}
+
+.fields ul {
+    margin: 0;
+    list-style-type: none;
+}
+
+.fields ul li {
+    width: 100%;
+    margin: 0 0 30px;
+    float: left;
+}
+
+.fields ul li input {
+    border: 1px solid rgba(255, 255, 255, .2);
+    color: #fff;
+    width: 100%;
+    background-color: transparent;
+    padding: 10px !important;
+    font-weight: 800;
+}
+
+.tokyo_tm_button {
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+    
+}
+
+.tokyo_tm_button a {
+    color: #fff;
+    display: inline-block;
+    background-color: #fff;
+    color: #000;
+    padding: 9px 40px 14px;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.fields .last textarea {
+    width: 97%;
+    border: 1px solid rgba(255, 255, 255, .2);
+    color: #fff;
+    height: 120px;
+    resize: none;
+    margin-bottom: 20px;
+    background-color: transparent;
+}
+
+textarea {
+    border-radius: 0;
+    font-size: 15px;
+    resize: vertical;
+    font-family: montserrat;
+    letter-spacing: 0 !important;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    line-height: 1.4;
+    padding: 10px !important;
+    width: 100%;
+    border: 1px solid #eee;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    margin-left: 30px;
+}
